@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    display: flex;
+    margin: 25px 25px 0px 25px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #323030;
+}
+
+.btn-header{
+    padding: 15px;
+    width: 125px;
+    border-radius: 50px;
+    background: #ffd663;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-header:hover{    
+    color: #fff;
+    background: #32312e;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    margin: 0px 25px 0px 45px;
+    padding: 10px;
+}
+
+.img-main{
+    width: 500px;
+    height: 500px;
+
+    margin-left: 90px;
+
+    animation: levitating 5s ease-in-out infinite;
+}
+
+@keyframes levitating{
+    0%,100%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-50px);
+    }
+}
+
+.title{
+    font-size: 50px;
+}
+
+.subtitle{
+    color: #323030;
+    line-height: 40px;
+}
+
+.txt-content{
+    margin-top: 15px;
+    line-height: 20px;
+    text-align: justify;
+    max-width: 500px;
+}
+
+.btn-main{
+    margin-top: 30px;
+    padding: 15px;
+    width: 125px;
+    border-radius: 50px;
+    background: #ffd663;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-main:hover{    
+    color: #fff;
+    background: #32312e;
+}
